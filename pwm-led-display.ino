@@ -30,10 +30,8 @@ void setup() {
 
   pwm41.begin();
   pwm41.setPWMFreq(1000);  // This is the maximum PWM frequency
-  // red LEDS, at freq = 20, I can't notice the LEDs flickering. At 10 I definitely can.
   pwm40.begin();
   pwm40.setPWMFreq(1000);  // This is the maximum PWM frequency
-  // for green LEDs, at freq = 20 I can definitely notice flickering. At 80 it is ok.
 }
 
 void loop() {
